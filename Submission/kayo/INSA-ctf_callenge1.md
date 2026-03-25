@@ -20,7 +20,7 @@ This suggested that to find the flag the knowledge of Steganography.
 
 ### Step 1: Check Metadata
 
-![file_check](../images/challenge1a.png)
+![file_check](images/challenge1a.png)
 
 > using a tool called **exiftool** extracted the metadata of the image.
 
@@ -30,7 +30,7 @@ This suggested that to find the flag the knowledge of Steganography.
 
 ### Step 2: Extracting the image using "strings" command
 
-![metadata_search](../images/challenge1b.png)
+![metadata_search](images/challenge1b.png)
 
 - beside the **strings** cmd I used **grep** cmd to filter the flag using regex.
  
@@ -40,7 +40,7 @@ This suggested that to find the flag the knowledge of Steganography.
 
 ### Step 3: Using "steghide" tool
 
-![decoding](../images/challenge1c.png)
+![decoding](images/challenge1c.png)
 
 - after using the **steghide** tool it asks for "**pass phrase**".  
 - to crack the password I used the tool called **crack** which was created by me.  
@@ -48,13 +48,13 @@ This suggested that to find the flag the knowledge of Steganography.
 
 ##### The magic of "cracker":
 
-![the_cracker](../images/challenge1d.png)
+![the_cracker](images/challenge1d.png)
 
 - the tool(**crack**) finally gave me the correct password.
 
 ##### The captured flag:
 
-![the_flag](../images/challenge1e.png)
+![the_flag](images/challenge1e.png)
 
 - after entering the **password** I got another file called **flag5.txt**.  
 - and **flag-5** was placed in that txt file.
@@ -63,12 +63,12 @@ This suggested that to find the flag the knowledge of Steganography.
 
 ### Step 4: The last Flag:
 
-![The_final_flag](../images/challenge1f.png)
+![The_final_flag](images/challenge1f.png)
 
 - Using a tool called **"binwalk"** I knew there were another zip file hidden in this image.  
 - Then after extraction, I got a file called **"flag4.txt"**.
 
-![The_final_flag](../images/challenge1g.png)
+![The_final_flag](images/challenge1g.png)
 
 - After opening the **flag4.txt** I found a Base64 text which is coded two times.  
 - Finally I decoded two times using "**base64 -d**" command.
