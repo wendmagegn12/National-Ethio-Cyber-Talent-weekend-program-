@@ -1,0 +1,142 @@
+🌐 Top 30 Most Important & Commonly Attacked Ports
+📌 Introduction
+
+In computer networking, a port is a communication endpoint used by protocols like TCP and UDP. Each port number is associated with specific services.
+
+Attackers often target well-known ports to exploit vulnerabilities, gain unauthorized access, or disrupt services.
+
+🔥 Most Important & Commonly Attacked Ports
+1. Port 20 & 21 – FTP (File Transfer Protocol)
+Used for file transfer
+Risk: Sends data in plain text (no encryption)
+Common Attacks: Brute force, credential sniffing
+2. Port 22 – SSH (Secure Shell)
+Used for secure remote login
+Risk: Weak passwords
+Common Attacks: Brute-force login attempts
+3. Port 23 – Telnet
+Remote access protocol (unencrypted)
+Risk: Very insecure (no encryption)
+Common Attacks: Credential theft
+4. Port 25 – SMTP (Simple Mail Transfer Protocol)
+Used to send emails
+Risk: Email spoofing
+Common Attacks: Spam relay, phishing
+5. Port 53 – DNS (Domain Name System)
+Converts domain names to IP addresses
+Risk: Open resolvers
+Common Attacks: DNS amplification (DDoS)
+6. Port 67 & 68 – DHCP
+Assigns IP addresses automatically
+Risk: Rogue DHCP servers
+Common Attacks: Man-in-the-middle
+7. Port 69 – TFTP (Trivial FTP)
+Simple file transfer
+Risk: No authentication
+Common Attacks: Unauthorized file access
+8. Port 80 – HTTP
+Web traffic (not secure)
+Risk: Data interception
+Common Attacks: XSS, SQL Injection
+9. Port 110 – POP3
+Email retrieval
+Risk: Plain text credentials
+Common Attacks: Password sniffing
+10. Port 119 – NNTP
+Used for newsgroups
+Risk: Rarely secured
+Common Attacks: Data exposure
+11. Port 123 – NTP
+Time synchronization
+Risk: Open servers
+Common Attacks: Amplification attacks
+12. Port 137–139 – NetBIOS
+Windows file sharing
+Risk: Information leakage
+Common Attacks: Enumeration
+13. Port 143 – IMAP
+Email access
+Risk: Weak authentication
+Common Attacks: Credential attacks
+14. Port 161 – SNMP
+Network management
+Risk: Default community strings
+Common Attacks: Information gathering
+15. Port 179 – BGP
+Internet routing protocol
+Risk: Misconfigurations
+Common Attacks: Route hijacking
+16. Port 389 – LDAP
+Directory services
+Risk: Weak access control
+Common Attacks: Data exposure
+17. Port 443 – HTTPS
+Secure web traffic
+Risk: Misconfigured SSL/TLS
+Common Attacks: SSL stripping
+18. Port 445 – SMB
+File sharing (Windows)
+Risk: Major vulnerabilities
+Common Attacks: Worms (e.g., WannaCry)
+19. Port 465 – SMTPS
+Secure email sending
+Risk: Misconfiguration
+Common Attacks: Spam abuse
+20. Port 500 – ISAKMP (VPN)
+Used for IPsec VPNs
+Risk: Weak keys
+Common Attacks: Brute-force
+21. Port 514 – Syslog
+Logging service
+Risk: No encryption
+Common Attacks: Log tampering
+22. Port 520 – RIP
+Routing protocol
+Risk: No authentication
+Common Attacks: Route injection
+23. Port 587 – SMTP (Submission)
+Email sending
+Risk: Weak authentication
+Common Attacks: Spam
+24. Port 636 – LDAPS
+Secure LDAP
+Risk: Certificate issues
+Common Attacks: MITM
+25. Port 989 & 990 – FTPS
+Secure FTP
+Risk: Misconfiguration
+Common Attacks: Credential attacks
+26. Port 993 – IMAPS
+Secure IMAP
+Risk: Weak passwords
+Common Attacks: Brute-force
+27. Port 995 – POP3S
+Secure POP3
+Risk: Weak authentication
+Common Attacks: Credential theft
+28. Port 1433 – Microsoft SQL Server
+Database service
+Risk: Exposed databases
+Common Attacks: SQL injection, brute-force
+29. Port 1521 – Oracle Database
+Database communication
+Risk: Misconfiguration
+Common Attacks: Data theft
+30. Port 3389 – RDP (Remote Desktop)
+Remote desktop access
+Risk: Exposed to internet
+Common Attacks: Brute-force, ransomware
+🛡️ Basic Security Tips
+Disable unused ports
+Use firewalls
+Enable strong passwords
+Use encryption (SSH, HTTPS)
+Regularly update systems
+Monitor traffic using tools like Wireshark
+📌 Conclusion
+
+Understanding commonly attacked ports helps in:
+
+Identifying vulnerabilities
+Improving system security
+Preventing cyber attacks
