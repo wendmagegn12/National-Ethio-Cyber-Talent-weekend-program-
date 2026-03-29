@@ -1,0 +1,68 @@
+# IP Address Classes: Class D & Class E
+
+## 📌 Introduction
+
+IPv4 addresses are divided into five classes (A, B, C, D, E).
+While Classes A, B, and C are used for normal network addressing, **Classes D and E have special purposes**.
+
+This note explains Class D and Class E in detail.
+
+---
+
+## 🔹 Class D (Multicast)
+
+### Range
+
+224.0.0.0 to 239.255.255.255
+
+### Purpose
+
+Class D addresses are used for **multicasting**, which means sending data to **multiple devices at the same time**. Unlike Classes A, B, and C, **Class D addresses are not assigned to individual devices**.
+
+### Key Features
+
+* No subnet mask is needed
+* Addresses are used **only for groups of hosts**
+* Efficient for streaming or group communications
+
+### Examples of Use
+
+* Live online lectures
+* IPTV or video streaming
+* Online gaming servers sending updates to many players
+
+---
+
+## 🔹 Class E (Experimental)
+
+### Range
+
+240.0.0.0 to 255.255.255.255
+
+### Purpose
+
+Class E addresses are reserved for **research and experimental purposes**.
+They are **not used in normal networks** and cannot be assigned to devices.
+
+### Key Features
+
+* Reserved for testing new protocols or features
+* Rarely used in real-world networks
+
+---
+
+## ⚡ Differences from Classes A, B, and C
+
+* Classes A, B, and C → assign IP addresses to individual devices
+* Class D → sends data to multiple devices at once (multicast)
+* Class E → reserved for experiments, not used in regular networks
+
+---
+
+## 👤 Author
+
+Sifen Gizaw
+
+## 📅 Date
+
+March 2026
